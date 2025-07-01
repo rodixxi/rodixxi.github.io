@@ -50,7 +50,7 @@ title: "Previa Cumpleaños! 🎉"
           <span class="term-prompt">$ cat ubicacion.txt</span>
           <div class="map-container">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.5!2d-63.41119444444444!3d-31.14713888888889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDA4JzQ5LjciUyA2M8KwMjQnNDAuMyJX!5e0!3m2!1ses!2sar!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3414.653405183036!2d-63.41376932362741!3d-31.14713887438699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzHCsDA4JzQ5LjciUyA2M8KwMjQnNDAuMyJX!5e0!3m2!1ses-419!2sus!4v1751393728859!5m2!1ses-419!2sus"
               width="100%" 
               height="200" 
               style="border:0;" 
@@ -96,8 +96,8 @@ title: "Previa Cumpleaños! 🎉"
         <div class="card-title">Clima (Ahora)</div>
         <div class="card-body">
           <span class="term-prompt">$ curl wttr.in/-31.1506846,-63.4220181?1</span>
-          <div class="term-block" style="background:#23272a; color:#b6ffb0;">
-            <iframe src="https://wttr.in/-31.1506846,-63.4220181?1" width="100%" height="180" style="background:#23272a; color:#b6ffb0; border:none; overflow:hidden;"></iframe>
+          <div class="term-block" style="background:#d9d9d9; color:#b6ffb0;">
+            <iframe src="https://wttr.in/-31.1506846,-63.4220181?1" width="100%" height="180" style="background:#d9d9d9; color:#b6ffb0; border:none; overflow:hidden;"></iframe>
           </div>
         </div>
       </div>
