@@ -1,37 +1,91 @@
-## Welcome to GitHub Pages
+# 🎉 Previa Hacker - Sitio Web de Rodixxi
 
-You can use the [editor on GitHub](https://github.com/rodixxi/rodixxi.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+¡Bienvenidos a la previa más hacker de Córdoba! Este sitio está inspirado en terminales, la estética de Lipgloss y el tema Jekyll Hacker.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 🚀 ¿Qué es esto?
+Una invitación interactiva y divertida para la previa de mi cumpleaños, con secciones tipo "terminal" y navegación por pestañas con emojis.
 
-### Markdown
+## 🖥️ Demo
+Puedes verlo en: [https://rodixxi.github.io](https://rodixxi.github.io)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## 🧑‍💻 Estructura de la Página
+- 🎉 Invitación
+- 📋 Detalles del evento
+- 🗺️ Mapa
+- ✅ Confirmar asistencia
+- 🎁 Regalos
+- 💬 Mensaje final
+- ☀️ Clima en Villa Santa Rosa, Córdoba (en vivo)
 
-```markdown
-Syntax highlighted code block
+## 🛠️ Tecnologías Utilizadas
+- **Jekyll** (con tema `jekyll-theme-hacker`)
+- **HTML/CSS** personalizado para el look terminal
+- **GitHub Pages** para hosting
+- **wttr.in** para el clima en vivo
 
-# Header 1
-## Header 2
-### Header 3
+## 🏃‍♂️ Cómo correr el sitio localmente
 
-- Bulleted
-- List
+### 1. Instala Ruby (recomendado Ruby 3+)
+- **En macOS:**
+  - Instala Homebrew si no lo tienes:
+    ```sh
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
+  - Instala rbenv y ruby-build:
+    ```sh
+    brew install rbenv ruby-build
+    rbenv install 3.2.2
+    rbenv global 3.2.2
+    echo 'eval "$(rbenv init - zsh)"' >> ~/.zshrc
+    source ~/.zshrc
+    ruby --version  # Debería mostrar 3.2.2
+    ```
+- **En Linux:**
+  - Instala rbenv siguiendo [estas instrucciones](https://github.com/rbenv/rbenv#installation)
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### 2. Instala Bundler
+```sh
+gem install bundler
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### 3. Instala las dependencias del proyecto
+```sh
+bundle install
+```
 
-### Jekyll Themes
+### 4. Corre el servidor local de Jekyll
+```sh
+bundle exec jekyll serve
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rodixxi/rodixxi.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### 5. Abre tu navegador en
+[http://localhost:4000](http://localhost:4000)
 
-### Support or Contact
+---
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#### ⚠️ Problemas comunes
+- Si ves errores de permisos, asegúrate de estar usando Ruby instalado con rbenv, no el del sistema.
+- Si Bundler te da error de versión, ejecuta:
+  ```sh
+  gem install bundler
+  ```
+- Si tienes problemas con gems nativos (como ffi, webrick), asegúrate de tener las Xcode Command Line Tools instaladas:
+  ```sh
+  xcode-select --install
+  ```
+- Si cambias de versión de Ruby, ejecuta:
+  ```sh
+  gem install bundler
+  bundle install
+  ```
+
+---
+
+## ✨ Créditos y Agradecimientos
+- Inspirado en [Lipgloss](https://github.com/charmbracelet/lipgloss) y el tema [jekyll-theme-hacker](https://pages-themes.github.io/hacker/)
+- Clima en vivo gracias a [wttr.in](https://wttr.in/-31.1506846,-63.4220181?1)
+- **Asistente IA:** ¡Gracias a [Cursor agent](https://www.cursor.so/) por ayudar a diseñar y automatizar este sitio!
+
+---
+
+*"Si leés esto, ya sos parte de la previa más hacker del año."*
