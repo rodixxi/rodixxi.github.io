@@ -26,7 +26,7 @@ title: "Previa Cumpleaños! 🎉"
         <div class="card-body">
           <span class="term-prompt">$ cat invitacion.txt</span>
           <div class="term-block">
-            Te invito a celebrar la previa a mi cumple, que es el 7 no el 6.<br>
+            Te invito a celebrar la previa a mi cumple, que es el 7. ¡La previa es antes, el 5!<br>
           </div>
         </div>
       </div>
@@ -35,10 +35,10 @@ title: "Previa Cumpleaños! 🎉"
         <div class="card-body">
           <span class="term-prompt">$ cat detalles.txt</span>
           <div class="term-block">
-            <b>Fecha y Hora:</b> Domingo 6 de julio al mediodía (pero podés llegar antes para ayudar y aprovechar el solsito)<br>
+            <b>Fecha y Hora:</b> Domingo 5 de Julio al mediodía (pero podés llegar antes para ayudar y aprovechar el solsito)<br>
             <b>Ubicación:</b> Villa Santa Rosa, Córdoba<br>
             <b>Requisito:</b> Trae lo que vallas a tomar, la carne la pongo yo.<br>
-            <b>Nota:</b> Esto es la previa, el cumpleaños es el día siguiente
+            <b>Nota:</b> Esto es la previa, el cumpleaños es el martes 7
           </div>
         </div>
       </div>
@@ -119,8 +119,8 @@ body {
   font-family: 'Fira Mono', 'Consolas', 'Menlo', 'Monaco', 'Liberation Mono', monospace;
   max-width: 1100px;
   margin: 40px auto 0 auto;
-  border-radius: 10px;
-  box-shadow: 0 0 40px #000a 0px 0px 20px 0px;
+  border-radius: 16px;
+  box-shadow: 0 0 50px #000c, 0 0 0 1px #00ff0022;
   border: 2px solid #222;
   overflow: hidden;
 }
@@ -160,13 +160,16 @@ body {
   background: transparent;
   border: 2px solid #23272a;
   border-bottom: none;
-  border-radius: 8px 8px 0 0;
+  border-radius: 10px 10px 0 0;
   padding: 0.4em 1.5em;
   font-weight: bold;
   font-size: 1em;
   margin-right: 0.5em;
   cursor: pointer;
-  transition: background 0.2s, color 0.2s;
+  transition: background 0.2s, color 0.2s, transform 0.15s;
+}
+.tab:hover {
+  transform: translateY(-2px);
 }
 .tab.active {
   background: #23272a;
@@ -186,13 +189,18 @@ body {
   flex: 1 1 350px;
   min-width: 320px;
   background: #23272a;
-  border-radius: 12px;
+  border-radius: 14px;
   box-shadow: 0 2px 12px #0002;
   border: 2.5px solid #23272a;
   margin-bottom: 1em;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px #0006;
 }
 .card-title {
   font-size: 1.1em;
