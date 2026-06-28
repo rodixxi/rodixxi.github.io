@@ -37,7 +37,7 @@ title: "Previa Cumpleaños! 🎉"
           <div class="term-block">
             <b>Fecha y Hora:</b> Domingo 5 de Julio al mediodía (pero podés llegar antes para ayudar y aprovechar el solsito)<br>
             <b>Ubicación:</b> Villa Santa Rosa, Córdoba<br>
-            <b>Requisito:</b> Trae lo que vallas a tomar, la carne la pongo yo.<br>
+            <b>Requisito:</b> Trae lo que vallas a tomar y vajilla, la carne la pongo yo.<br>
             <b>Nota:</b> Esto es la previa, el cumpleaños es el martes 7
           </div>
         </div>
@@ -95,7 +95,7 @@ title: "Previa Cumpleaños! 🎉"
       <div class="card card-grey" id="clima">
         <div class="card-title">Clima (Ahora)</div>
         <div class="card-body">
-          <span class="term-prompt">$ curl wttr.in/-31.1506846,-63.4220181?1</span>
+          <span class="term-prompt">$ curl wttr.in/-31.1506846,-63.4220181?1 # clima estimado para el Domingo 5 de Julio</span>
           <div class="term-block" style="background:#d9d9d9; color:#b6ffb0;">
             <iframe src="https://wttr.in/-31.1506846,-63.4220181?1" width="100%" height="180" style="background:#d9d9d9; color:#b6ffb0; border:none; overflow:hidden;"></iframe>
           </div>
